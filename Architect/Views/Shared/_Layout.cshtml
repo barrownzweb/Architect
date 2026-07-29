@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Architect</title>
+
+    <link rel="icon" type="image/x-icon" href="~/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/favicon.png" />
+
+
+    <link rel="stylesheet" href="~/css/loader.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/rev-slider-4.css" />
+
+    <link href="~/plugins/css/settings.css" rel="stylesheet" />
+    <link href="~/plugins/css/navigation.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/responsive.css" />
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,800,800i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i&amp;subset=latin-ext" rel="stylesheet">
+
+    
+</head>
+<body>
+    <div class="page-wraper">
+
+        <!-- HEADER START -->
+        <header class="site-header header-style-2  nav-wide">
+
+            <div class="sticky-header main-bar-wraper">
+                <div class="main-bar bg-white p-t10">
+                    <div class="container">
+                        <div class="logo-header">
+                            <div class="logo-header-inner logo-header-one">
+                                <a asp-action="index" asp-controller="Home">
+                                    <img src="~/images/logo-dark.png" width="171" height="49" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ETRA Nav -->
+                        <div class="extra-nav">
+                            <div class="extra-cell">
+                                <a href="javascript:;" class="vnav-btn">
+                                    <span class="fa fa-bars"></span>
+                                </a>
+                            </div>
+                        </div>
+                        @* <div class="extra-nav">
+                            <div class="extra-cell">
+                                <a href="#search" class="site-search-btn"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div> *@
+
+                        <div class="extra-nav header-top-info">
+                            <div class="extra-cell">
+                                <div class="wt-topbar-right clearfix top-bar">
+
+                                    <div class="d-flex mt-2">
+                                        <ul class="list-unstyled list-inline e-p-bx pull-right">
+                                            <li><i class="fa fa-envelope"></i>Info@gmail.com</li>
+                                            <li><i class="fa fa-phone"></i>(654) 123-4567</li>
+                                        </ul>
+                                        <ul class="social-bx list-inline pull-right ">
+                                            <li><a href="javascript:void(0);" class="fa-brands fa-facebook-f"></a></li>
+                                            <li><a href="javascript:void(0);" class="fa-brands fa-twitter"></a></li>
+                                            <li><a href="javascript:void(0);" class="fa-brands fa-linkedin-in"></a></li>
+
+                                            <li><a href="javascript:void(0);" class="fa-brands fa-youtube"></a></li>
+                                            <li><a href="javascript:void(0);" class="fa-brands fa-instagram"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ETRA Nav -->
+                        <div class="extra-nav">
+                            <div class="extra-cell">
+                                <div class="dropdown share-icon-btn2">
+                                    <a href="javascript:;" class="site-search-btn dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-share-alt"></i></a>
+                                    <div class="dropdown-menu bg-white">
+                                        <div class="top-bar">
+                                            <ul class="social-bx list-inline">
+                                                <li><a href="javascript:void(0);" class="fa-brands fa-facebook-f"></a></li>
+                                                <li><a href="javascript:void(0);" class="fa-brands fa-twitter"></a></li>
+                                                <li><a href="javascript:void(0);" class="fa-brands fa-linkedin-in"></a></li>
+
+                                                <li><a href="javascript:void(0);" class="fa-brands fa-youtube"></a></li>
+                                                <li><a href="javascript:void(0);" class="fa-brands fa-instagram"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SITE Search -->
+                        @* <div id="search">
+                            <span class="close"></span>
+                            <form role="search" id="searchform" action="https://thewebmax.org/search" method="get" class="radius-xl">
+                                <div class="input-group">
+                                    <input value="" name="q" type="search" placeholder="Type to search" />
+                                    <span class="input-group-btn"><button type="button" class="search-btn"><i class="fa fa-search"></i></button></span>
+                                </div>
+                            </form>
+                        </div> *@
+
+                        <!-- STYLE SWITCHER  ======= -->
+                        <div class="nav-sidebar">
+                            <a href="javascript:;" class="vnav-close"></a>
+                            <div class="nav-siderbar-scroll">
+                                <div class="vertical-content-wrap">
+                                    <div class="vertical-content-area vertical-centered">
+                                        <!-- MAIN Vav -->
+                                        <div class="vertical-nav">
+                                            <ul class=" nav navbar-nav">
+                                                <li>
+                                                    <a asp-action="index" asp-controller="Home">Home</a>
+                                                    @* <a href="javascript:;">Home</a> *@
+                                                    @* <ul class="sub-menu v-sub-menu">
+                                                        <li>
+                                                            <a href="index.html">Home-1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="index-2.html">Home-2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="index-3.html">Home-3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="index-4.html">Home-4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="index-5.html">Home-5</a>
+                                                        </li>
+                                                    </ul> *@
+                                                </li>
+                                                <li>
+                                                    <a asp-action="AboutUs" asp-controller="Home">About_us</a>
+                                                    @* <a href="about-1.html">About us</a> *@
+                                                    @* <a href="javascript:;">Pages</a>
+                                                    <ul class="sub-menu v-sub-menu">
+                                                        <li>
+                                                            <a href="about-1.html">About us</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="contact-1.html">Contact us</a>
+                                                        </li>
+                                                    </ul> *@
+                                                </li>
+                                                @* <li>
+                                                    <a href="javascript:;">News</a>
+                                                    <ul class="sub-menu v-sub-menu">
+                                                        <li><a href="news-grid.html">Grid</a></li>
+                                                        <li><a href="news-listing.html">Listing</a></li>
+                                                        <li><a href="news-masonry.html">Masonry</a></li>
+                                                    </ul>
+                                                </li> *@
+                                                <li>
+
+                                                    <a asp-action="Work" asp-controller="Home">Work</a>
+                                                    @* <li><a href="work-grid.html">Work </a></li> *@
+                                                    @* <a href="javascript:;">Works</a>
+                                                    <ul class="sub-menu v-sub-menu">
+                                                        <li><a href="work-grid.html">Grid</a></li>
+                                                        <li><a href="work-masonry.html">Masonry</a></li>
+                                                        <li><a href="work-carousel.html">Carousel</a></li>
+                                                        <li><a href="project-detail.html">Project Detail</a></li>
+                                                    </ul> *@
+                                                </li>
+                                                <li>
+                                                    @* <a asp-action="Gallery" asp-controller="Home">Gallery</a> *@
+                                                    @* <a href="javascript:;">Post detail</a>
+                                                    <ul class="sub-menu v-sub-menu">
+                                                        <li><a href="post-image.html">Image</a></li>
+                                                        <li><a href="post-gallery.html">Gallery</a></li>
+                                                        <li><a href="post-video.html">Video</a></li>
+                                                        <li><a href="post-right-sidebar.html">Right Sidebar</a></li>
+                                                    </ul> *@
+                                                </li>
+                                                <li class="submenu-direction">
+                                                    <a asp-action="Contact" asp-controller="Home">Contact</a>
+                                                    @* <a href="javascript:;">Shortcodes</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="accordian.html">All Elements</a></li>
+                                                    </ul> *@
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- STYLE SWITCHER END ==== -->
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- HEADER END -->
+
+        <div class="page-content">
+            @RenderBody()
+
+        </div>
+
+        <!-- FOOTER START -->
+        <footer class="site-footer bg-gray footer-light footer-wide">
+
+            <div class="footer-bottom overlay-wraper">
+                <div class="overlay-main bg-black" style="opacity:0;"></div>
+                <div class="container p-t30">
+                    <div class="footer-bottom-content d-flex align-items-center justify-content-between">
+
+                        <div class="wt-footer-bot-left">
+                            <a href="#"><img src="~/images/logo-dark.png" width="140" height="58" alt=""></a>
+                        </div>
+
+                        <div class="text-center copyright-block p-t15">
+                            <span class="copyrights-text">© 2023 Your Company. Designed By thememajestic.</span>
+                        </div>
+
+                        <div class="wt-footer-bot-right p-t15">
+                            <ul class="copyrights-nav pull-right">
+                                <li><a href="about-1.html">Terms  & Condition</a></li>
+                                <li><a href="about-1.html">Privacy Policy</a></li>
+                                <li><a href="contact-1.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+        <!-- BUTTON TOP START -->
+        <button class="scroltop"><span class="fa fa-angle-up  relative" id="btn-vibrate"></span></button>
+
+    </div>
+
+    <!-- LOADING AREA START ===== -->
+    <div class="loading-area">
+        <div class="loading-box"></div>
+        <div class="loading-pic">
+            <svg id="triangle" width="140px" height="140px" viewBox="-3 -4 39 39">
+                <polygon fill="#fff" stroke="#000" stroke-width="2" points="16,0 32,32 0,32"></polygon>
+            </svg>
+        </div>
+    </div>
+    <!-- LOADING AREA  END ====== -->
+
+    <script src="~/js/jquery-3.7.1.min.js"></script><!-- JQUERY.MIN JS -->
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src="~/js/magnific-popup.min.js"></script><!-- MAGNIFIC-POPUP JS -->
+    <script src="~/js/waypoints.min.js"></script><!-- WAYPOINTS JS -->
+    <script src="~/js/counterup.min.js"></script><!-- COUNTERUP JS -->
+    <script src="~/js/waypoints-sticky.min.js"></script><!-- COUNTERUP JS -->
+    <script src="~/js/isotope.pkgd.min.js"></script><!-- MASONRY  -->
+    <script src="~/js/imagesloaded.pkgd.min.js"></script><!-- MASONRY  -->
+    <script src="~/js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
+    <script src="~/js/jquery.owl-filter.js"></script>
+    <script src="~/js/scrolla.min.js"></script><!-- ON SCROLL CONTENT ANIMTE   -->
+    <script src="~/js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+    <script src="~/js/shortcode.js"></script><!-- SHORTCODE FUCTIONS  -->
+    <script src="~/js/rev-script-1.js"></script>
+
+  
+
+
+    <script src="~/plugins/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="~/plugins/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/plugins/js/extensions/revolution-plugin.js"></script>
+
+</body>
+</html>

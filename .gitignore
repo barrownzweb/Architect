@@ -1,0 +1,60 @@
+## ASP.NET Core / Visual Studio
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+
+# Visual Studio folder
+.vs/
+
+# Logs
+*.log
+logs/
+
+# Rider / VS Code
+.vscode/
+.idea/
+
+# Node (if used)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQL Server local DB
+*.mdf
+*.ldf
+
+# NuGet
+*.nupkg
+packages/
+!**/packages/build/
+
+# Publish files
+*.publish.xml
+*.pubxml
+
+# Local configuration
+appsettings.Development.json
+appsettings.Local.json
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Test results
+TestResults/
+
+# Coverage
+*.coverage
+*.coveragexml
+
+wwwroot/uploads/

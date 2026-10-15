@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Architect</title>
 
-    <link rel="icon" type="image/x-icon" href="~/images/favicon.ico" />
-    <link rel="shortcut icon" type="image/x-icon" href="~/images/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="~/Our_Images/Favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/Our_Images/Favicon.png" />
 
 
     <link rel="stylesheet" href="~/css/loader.min.css" />
@@ -42,7 +42,7 @@
                         <div class="logo-header">
                             <div class="logo-header-inner logo-header-one">
                                 <a asp-action="index" asp-controller="Home">
-                                    <img src="~/images/logo-dark.png" width="171" height="49" alt="" />
+                                    <img src="~/Our_Images/LogoArchitect.png" width="171" height="49" alt="" />
                                 </a>
                             </div>
                         </div>
@@ -66,8 +66,8 @@
 
                                     <div class="d-flex mt-2">
                                         <ul class="list-unstyled list-inline e-p-bx pull-right">
-                                            <li><i class="fa fa-envelope"></i>Info@gmail.com</li>
-                                            <li><i class="fa fa-phone"></i>(654) 123-4567</li>
+                                            <li><i class="fa fa-envelope"></i>rickmj25591@gmail.com</li>
+                                            <li><i class="fa fa-phone"></i>9044278568</li>
                                         </ul>
                                         <ul class="social-bx list-inline pull-right ">
                                             <li><a href="javascript:void(0);" class="fa-brands fa-facebook-f"></a></li>
@@ -75,7 +75,7 @@
                                             <li><a href="javascript:void(0);" class="fa-brands fa-linkedin-in"></a></li>
 
                                             <li><a href="javascript:void(0);" class="fa-brands fa-youtube"></a></li>
-                                            <li><a href="javascript:void(0);" class="fa-brands fa-instagram"></a></li>
+                                            <li><a href="https://www.instagram.com/versearchitects?igsi=bGJuYTdpc2NseDZ3&utm_source=qr" class="fa-brands fa-instagram"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -223,18 +223,18 @@
                     <div class="footer-bottom-content d-flex align-items-center justify-content-between">
 
                         <div class="wt-footer-bot-left">
-                            <a href="#"><img src="~/images/logo-dark.png" width="140" height="58" alt=""></a>
+                            <a asp-action="Index" asp-controller="Home"><img src="~/Our_Images/LogoArchitect.png" width="140" height="58" alt=""></a>
                         </div>
 
                         <div class="text-center copyright-block p-t15">
-                            <span class="copyrights-text">© 2023 Your Company. Designed By thememajestic.</span>
+                                © @DateTime.Now.Year Verse Architects. Designed & Developed by Barrownz Group.
                         </div>
 
                         <div class="wt-footer-bot-right p-t15">
                             <ul class="copyrights-nav pull-right">
-                                <li><a href="about-1.html">Terms  & Condition</a></li>
-                                <li><a href="about-1.html">Privacy Policy</a></li>
-                                <li><a href="contact-1.html">Contact Us</a></li>
+                                <li><a href="#">Terms  & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a asp-action="Contact" asp-controller="Home">Contact Us</a></li>
                             </ul>
                         </div>
 

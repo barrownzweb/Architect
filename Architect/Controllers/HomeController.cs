@@ -6,11 +6,13 @@ namespace Architect.Controllers
 {
     public class HomeController : Controller
     {
+
         public IActionResult Index()
         {
             return View();
         }
-
+        
+        [HttpGet("about-us-information-based-page")]
         public IActionResult AboutUs()
         {
             return View();
